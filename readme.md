@@ -51,7 +51,7 @@ Uma recriação divertida do universo **Yu-Gi-Oh!** com a mecânica clássica de
 
 ## 🔁 Jogue agora
 
-👉 [**Clique aqui para jogar online**](https://lucas-0liveira.github.io/Yugioh)
+👉 [**Clique aqui para jogar**](https://lucas-0liveira.github.io/Yugioh)
 
 Desafie o computador em batalhas estratégicas de cartas baseadas no clássico Jo-Ken-Po com personagens icônicos do universo *Yu-Gi-Oh!*.
 
