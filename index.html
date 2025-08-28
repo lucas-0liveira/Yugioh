@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Yu-Gi-Oh! Jo-Ken-po </title>
+    <link rel="shortcut icon" href="src/assets/favicon/Favicon.ico" type="image/x-icon">
+    <meta http-equiv="Cache-Control" content="max-age=604800">
+
+    <!-- SEO -->
+    <meta name="author" content="Lucas Dev">
+    <meta name="description" content="Jogue Yu-Gi-Oh! Jo-Ken-Po Edition — um duelo de cartas com Dragão Branco, Mago Negro e Exodia! Feito com HTML, CSS e JavaScript puro.">
+    <meta name="keywords" content="yu-gi-oh, jo-ken-po, pedra papel tesoura, jogo de cartas, jogo yu-gi-oh javascript, jogo responsivo, jogo com html css javascript, dragão branco olhos azuis, mago negro, exodia">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- protocolo Open Graph -->
+    <meta property="og:title" content="Yu-Gi-Oh! Jo-Ken-po">
+    <meta property="og:description" content="Jogue Yu-Gi-Oh! Jo-Ken-Po Edition — um duelo de cartas com Dragão Branco, Mago Negro e Exodia! Feito com HTML, CSS e JavaScript puro.">
+    <meta property="og:type" content="website">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="src/styles/reset.css">
+
+    <!-- framework -->
+     
+    <link rel="stylesheet" href="src/styles/buttons.css">
+    <link rel="stylesheet" href="src/styles/containers_and_frames.css">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <!-- main style -->
+    <link rel="stylesheet" href="src/styles/main.css">
+    
+    <!-- footer style -->
+    <link rel="stylesheet" href="src/styles/footer.css">
+    
+    <!-- game over screen -->
+    <link rel="stylesheet" href="src/styles/game-over-screen.css">
+    
+    <!-- settings screen -->
+     <link rel="stylesheet" href="src/styles/setting-screen.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9f10f7f884.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <main class="container">
+        <aside class="container__left framed-golden-2">
+            <div class="score_box frame">
+                <span id="score_points">Win : 0 | Lose: 0</span>
+            </div>
+
+            <div class="menu_avatar"></div>
+
+            <div class="card_details frame">
+                <p id="card-name">Selecione</p>
+                <p id="card-type">uma carta</p>
+            </div>
+
+            <p class="setting-button" onclick="showSettings()"> Configurações <i class="fa-solid fa-gear"></i></p>
+        </aside>
+
+        <section class="container__right">
+            <div class="card-box framed" id="computer-cards"></div>
+
+            <div class="card-versus_container">
+                <div class="versus-top">
+                    <div class="card-infiled" id="player-field-card"></div>
+
+                    <img src="src/assets/icons/millenium2.png" alt="icone do millenium">
+
+                    <div class="card-infiled" id="computer-field-card"></div>
+                </div>
+
+                <div class="versus-bottom">
+                    <button id="next-duel" class="rpgui-button"> GANHOU </button>
+                </div>
+            </div>
+
+            <div class="card-box framed" id="player-cards"></div>
+        </section>
+    </main>
+
+    <div class="game-screen">
+        <h2> Game Over! </h2>
+        <p> 🤩 Você Vencer 🤩 </p>
+        <button onclick="restart()"> Reiniciar o jogo </button>
+    </div>
+
+    <div class="settings">
+        <div class="settings-box">
+            <h3> Configurações: </h3>
+            <div class="language">
+                <h4> Idioma: </h4>
+                <span class="en-us" onclick="changeLanguage('english')"> Inglês </span>
+                <span class="pt-br" onclick="changeLanguage('portuguese')"> Português </span>
+            </div>
+            <div class="volume">
+                <h4> Volume: </h4>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="1" onchange="ajustarVolume()">
+            </div>
+            <i class="fa-solid fa-xmark" onclick="hiddenSettings()"></i>
+        </div>
+    </div>
+
+    <div class="bg-video">
+        <video class="video" autoplay loop muted>
+            <source src="src/assets/video/yugi.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <audio id="bgm" loop autoplay>
+        <source src="src/assets/audios/Tema Abertura Yu Gi Oh!.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="src/scripts/cards.js"></script>
+    <script src="src/scripts/engine.js"></script>
+    <script src="src/scripts/settings.js"></script>
+</body>
+</html>
