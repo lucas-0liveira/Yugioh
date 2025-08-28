@@ -37,7 +37,7 @@ Uma recriação divertida do universo **Yu-Gi-Oh!** com a mecânica clássica de
 
 ## 📸 Demonstração
 
-![Preview do Jogo](./src/assets/icons/desktop.png)
+![Preview do Jogo](./src/assets/icons/desktop.jpeg)
 
 ---
 
