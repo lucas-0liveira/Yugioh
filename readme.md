@@ -22,7 +22,7 @@ Uma recriação divertida do universo **Yu-Gi-Oh!** com a mecânica clássica de
 ## 🌟 Funcionalidades
 
 - 🔊 **Controle de volume**: ajuste o som conforme sua preferência.
-- 🌍 **Suporte a múltiplos idiomas**: alterne entre português e inglês facilmente.
+- 🌍 **Suporte a múltiplos idiomas**: alterne entre português e inglês.
 - 📱 **Design responsivo**: compatível com computadores, tablets e celulares.
 
 ---
@@ -31,7 +31,7 @@ Uma recriação divertida do universo **Yu-Gi-Oh!** com a mecânica clássica de
 
 - **HTML5** — estrutura da aplicação.
 - **CSS3** — estilização temática e responsiva.
-- **JavaScript (Vanilla)** — lógica do jogo e manipulação de DOM.
+- **JavaScript (Vanilla)** — lógica do jogo.
 
 ---
 
@@ -43,8 +43,44 @@ Uma recriação divertida do universo **Yu-Gi-Oh!** com a mecânica clássica de
 
 ## 🚀 Como jogar localmente
 
-1. Clone o repositório:
+ Clone o repositório:
 
    ```bash
    git clone https://github.com/lucas-0liveira/Yugioh.git
    ```
+
+## 🔁 Jogue agora
+
+👉 [**Clique aqui para jogar online**](https://lucas-0liveira.github.io/Yugioh)
+
+Desafie o computador em batalhas estratégicas de cartas baseadas no clássico Jo-Ken-Po com personagens icônicos do universo *Yu-Gi-Oh!*.
+
+---
+
+## 💡 Inspiração
+
+Este projeto une a nostalgia de *Yu-Gi-Oh!* com a simplicidade e estratégia do Jo-Ken-Po, criando uma experiência divertida, rápida e envolvente. Uma homenagem aos duelos clássicos com um toque moderno e acessível.
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são muito bem-vindas!  
+Se você deseja propor melhorias, corrigir bugs ou adicionar novas funcionalidades:
+
+1. Faça um **fork** do repositório
+2. Crie uma branch com suas alterações
+3. Envie um **Pull Request**
+
+Vamos construir algo ainda melhor juntos!
+
+---
+
+## 🏆 Créditos
+
+Este projeto foi desenvolvido como parte de um desafio educacional da [Digital Innovation One (DIO)](https://web.digitalinnovation.one/).
+
+---
+
+Aproveite e divirta-se com o **Yu-Gi-Oh | Jo-Ken-Po**!  
+Se você curtiu o projeto, não esqueça de deixar uma ⭐ no repositório para apoiar o desenvolvimento!
